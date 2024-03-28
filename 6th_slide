@@ -1,0 +1,30 @@
+// Car object
+const car = {
+  make: "Toyota",
+  model: "Camry",
+  color: ["Red", "Blue", "Black"],
+  year: [2019, 2020, 2021],
+  hybrid: true,
+  // Method to drive the car
+  drive: function() {
+    console.log("The car is being driven.");
+  },
+  // Method to start the car
+  start: function() {
+    console.log("The car has started.");
+    // Log with random tax
+    console.log("Tax: $" + (Math.random() * 1000).toFixed(2));
+  }
+};
+
+// Logging make
+console.log("Make: " + car.make);
+
+// Logging first color
+console.log("First Color: " + car.color[0]);
+
+// Driving the car
+car.drive();
+
+// Starting the car
+car.start();
