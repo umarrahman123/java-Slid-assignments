@@ -7,4 +7,4 @@ const getColor = ()=>{
 
 document.getElementById("btn").addEventListener("click", getColor)
 
-getColor()
+getColor() 
